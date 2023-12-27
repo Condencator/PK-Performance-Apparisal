@@ -1,0 +1,75 @@
+body {
+    background-color: #d5d3f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    gap: 7px;
+    margin: 10px 10px 20px 10px;
+}
+.soft-1 {
+    display: flex;
+    border: inset 3px grey;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: rgb(255, 240, 219);
+    flex-wrap: wrap;
+}
+.soft-2 {
+    display: flex;
+    border: inset 3px gray;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color:  rgb(255, 240, 219);
+    flex-wrap: wrap;
+}
+.judul-soft {
+    display: flex;
+    grid-column: span 2;
+    justify-content: center;
+    border: inset 3px gray;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(255, 240, 219);
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    gap: 5px;
+    margin: 20px 10px 10px 10px;
+}
+
+.judul-bobot {
+    display: flex;
+    justify-content: center;
+    border: inset 3px gray;
+    align-items: center;
+    border-radius: 5px;
+    background-color:  rgb(255, 240, 219);
+}
+
+.bobot {
+    display: flex;
+    border: inset 3px gray;
+    flex-direction: column;
+    padding-left: 5px;
+    flex-wrap: wrap;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    background-color:  rgb(255, 240, 219);
+}
+
+footer {
+    font-size: 0.6rem;
+    text-align: right;
+    margin-right: 12px;
+}
